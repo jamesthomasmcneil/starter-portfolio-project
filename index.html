@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Final Project</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <picture>
+                    <source srcset="jtm.png" type="image/svg+xml">
+                    <img src="jtm.png" class="img-fluid img-thumbnail" alt="...">
+                </picture>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    </li>
+            </div>
+    </nav>
+    <div class="container-fluid">
+        <div id="rowOne" class="row">
+            <div class="col-12 col-sm-6 col-md-4">
+                <h1 id="name" class="display-sm-4">James Thomas McNeil</h1>
+                <h5 id="title">Web Developer</h5>
+                <hr>
+                <p id="desc" > Hi, I'm James and I'm a web developer! I am currently studying front-end web development at Bethel Tech. This is my final project for web foundations.
+                </p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <img class="img-fluid" src="selfie.png" />
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <div id="rowTwo" class="row">
+        <div id="tech" class="col-12 col-sm-6 col-md-4">
+            <h6>Technical Skills</h1>
+                <ul class="list-group">
+                    <li class="list-group-item" >HTML, CSS, & JavaScript</li>
+                    <li class="list-group-item">Bootstrap & Flexbox</li>
+                    <li class="list-group-item">AJAX & jQuery</li>
+                    <li class="list-group-item">GitHub</li>
+                </ul>
+        </div>
+        <div id="soft" class="col-12 col-sm-6 col-md-4">
+            <h6>Soft Skills</h1>
+                <ul class="list-group">
+                    <li class="list-group-item">Effective Communication</li>
+                    <li class="list-group-item">Time Management</li>
+                    <li class="list-group-item">Interpersonal Skills</li>
+                    <li class="list-group-item">Work Ethic</li>
+                </ul>
+        </div>
+        <div id="hobbies" class="col-12 col-sm-6 col-md-4">
+            <h6>Hobbies</h1>
+                <ul class="list-group">
+                    <li class="list-group-item">Health & Fitness</li>
+                    <li class="list-group-item">Baking Bread</li>
+                    <li class="list-group-item">Reading</li>
+                    <li class="list-group-item">Interior Design</li>
+                </ul>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div id="rowThree" class="row">
+            <h6 class="display-sm-4"> Advice for the Day </h6>
+            <p id="adviceP"></p>
+        </div>
+    <footer class="mt-auto">
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="https://github.com/jamesthomasmcneil">
+                <img src="git.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                GitHub
+              </a>
+              <a class="navbar-brand" href="https:www.linkedin.com/in/james-mcneil22">
+                <img src="linked.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                LinkedIn
+              </a>
+            </div>
+          </nav>
+    </footer>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
